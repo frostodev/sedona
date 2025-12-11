@@ -1,0 +1,60 @@
+# --------------------------
+# PHP
+# --------------------------
+vendor/
+composer.lock
+
+# Archivos de configuración locales
+.env
+.env.*.local
+
+# Cachés y logs comunes
+*.log
+*.cache
+*.tmp
+*.bak
+
+# --------------------------
+# JavaScript / Node.js
+# --------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# --------------------------
+# IDEs / Editores
+# --------------------------
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# --------------------------
+# Sistemas operativos
+# --------------------------
+.DS_Store      # macOS
+Thumbs.db      # Windows
+desktop.ini    # Windows
+
+# --------------------------
+# Archivos temporales
+# --------------------------
+*.swp
+*.swo
+*~
+*.orig
+
+# --------------------------
+# Base de datos
+# --------------------------
+#*.sql
+*.sql.gz
+*.sqlite
+
+# --------------------------
+# Otros
+# --------------------------
+coverage/

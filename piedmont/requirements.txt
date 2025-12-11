@@ -1,0 +1,7 @@
+selenium
+urllib3==1.26.6
+requests-html
+webdriver_manager
+unidecode
+colorama
+mysql-connector

@@ -1,0 +1,47 @@
+/* Estilos personalizados complementarios */
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: 200;
+    letter-spacing: 0.5px;
+}
+
+.tabla-salas th {
+    background-color: #f8f9fa;
+}
+
+.libre {
+    background-color: #d4edda !important;
+}
+
+.ocupado {
+    background-color: #f8d7da !important;
+}
+
+.warning {
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+.enlace-asignatura:hover, .enlace-sala:hover {
+    text-decoration: underline;
+}
+
+.bloques-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 0.5rem;
+}
+
+.poem-line {
+    font-style: italic;
+    color: #6c757d;
+}
+
+@media (max-width: 768px) {
+    .bloques-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
