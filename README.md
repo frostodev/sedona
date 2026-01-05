@@ -6,6 +6,8 @@ Nació como ejercicio personal luego de cursar **INF239 Bases de Datos**.
 
 Sedona hace uso de un script externo (**Piedmont**) para obtener los datos de asignaturas.
 
+[Link a la versión Live del sitio web](https://sedona2.duckdns.org/)
+
 ## Características principales
 
 - **Búsqueda de Asignaturas**: Encuentra ramos por código, nombre o profesor y visualiza sus paralelos, cupos y horarios.
